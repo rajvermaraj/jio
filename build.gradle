@@ -8,10 +8,4 @@ buildscript {
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url 'https://api.xposed.info/' }
-    }
-}
+// Note: Repositories are now handled in settings.gradle to avoid conflicts
